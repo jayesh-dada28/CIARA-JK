@@ -232,7 +232,7 @@ def get_best_path(paths, G):
 # ----------------------------
 # Generate Network and Run Tests
 # ----------------------------
-num_nodes = 100
+num_nodes = 50
 G = generate_topology(n=num_nodes, p=p, seed=42)
 pos = nx.spring_layout(G, seed=42)  # Consistent layout for all visualizations
 
